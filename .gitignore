@@ -1,0 +1,9 @@
+# Build-output (genereres ved hvert build)
+_build/
+out/
+
+# Genererede CMake-filer (MPLAB laver dem igen ud fra .vscode/My_Project.mplab.json)
+cmake/
+
+# Lokale indstillinger (fx serienummer på debuggeren)
+.vscode/*.mplab-local.json
